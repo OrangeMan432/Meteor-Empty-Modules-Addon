@@ -10,7 +10,7 @@ public class HudExample extends HudElement {
     /**
      * The {@code name} parameter should be in kebab-case.
      */
-    public static final HudElementInfo<HudExample> INFO = new HudElementInfo<>(AddonTemplate.HUD_GROUP, "example", "HUD element example.", HudExample::new);
+    public static final HudElementInfo<HudExample> INFO = new HudElementInfo<>(AddonTemplate.HUD_GROUP, "IPC", "I Don't Know What To Do With This", HudExample::new);
 
     public HudExample() {
         super(INFO);
@@ -18,12 +18,12 @@ public class HudExample extends HudElement {
 
     @Override
     public void render(HudRenderer renderer) {
-        setSize(renderer.textWidth("Example element", true), renderer.textHeight(true));
-
+        setSize(renderer.textWidth("       \n  UwU  \n       ", true), renderer.textHeight(true));
+        
         // Render background
-        renderer.quad(x, y, getWidth(), getHeight(), Color.LIGHT_GRAY);
-
+        renderer.quad(x, y, getWidth(), getHeight(), Color.RGB);
+        
         // Render text
-        renderer.text("Example element", x, y, Color.WHITE, true);
+        renderer.text("UwU", x, y, Color.WHITE, true);
     }
 }

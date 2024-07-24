@@ -2,13 +2,14 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
+  "name": "WASD Modules",
   "description": "An addon template for Meteor Client addons.",
   "authors": [
-    "seasnail"
+    "IvanProCookie",
+    "OrangeMan432"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/IvanProCookie/Modules-Plus-Meteor-Addon"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",

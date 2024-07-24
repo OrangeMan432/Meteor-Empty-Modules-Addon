@@ -1,8 +1,0 @@
-modules = []
-run = "./gradlew build"
-
-[nix]
-channel = "stable-24_05"
-
-[deployment]
-run = ["sh", "-c", "./gradlew build"]

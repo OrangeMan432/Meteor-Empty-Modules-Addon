@@ -18,6 +18,8 @@ classes/
 
 # vscode
 
+.replit
+replit.nix
 .settings/
 .vscode/
 bin/

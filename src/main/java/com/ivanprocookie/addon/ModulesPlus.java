@@ -1,11 +1,11 @@
-package com.example.addon;
+package com.ivanprocookie.addon;
 
-// import com.example.addon.commands.CommandExample;
-// import com.example.addon.hud.HudExample;
-import com.example.addon.modules.wasd.WKey;
-import com.example.addon.modules.wasd.AKey;
-import com.example.addon.modules.wasd.SKey;
-import com.example.addon.modules.wasd.DKey;
+// import com.ivanprocookie.addon.commands.CommandExample;
+// import com.ivanprocookie.addon.hud.HudExample;
+import com.ivanprocookie.addon.modules.wasd.WKey;
+import com.ivanprocookie.addon.modules.wasd.AKey;
+import com.ivanprocookie.addon.modules.wasd.SKey;
+import com.ivanprocookie.addon.modules.wasd.DKey;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -16,9 +16,9 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class AddonTemplate extends MeteorAddon {
+public class ModulesPlus extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Standalone Modules");
+    public static final Category CATEGORY = new Category("Keys");
     public static final HudGroup HUD_GROUP = new HudGroup("IPC");
 
     @Override
@@ -45,7 +45,7 @@ public class AddonTemplate extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "com.ivanprocookie.addon";
     }
 
     @Override

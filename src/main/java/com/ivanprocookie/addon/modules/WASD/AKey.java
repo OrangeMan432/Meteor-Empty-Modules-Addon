@@ -1,6 +1,6 @@
-package com.example.addon.modules.wasd;
+package com.ivanprocookie.addon.modules.wasd;
 
-import com.example.addon.AddonTemplate;
+import com.ivanprocookie.addon.ModulesPlus;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
 import meteordevelopment.meteorclient.settings.ColorSetting;
@@ -12,10 +12,10 @@ import meteordevelopment.orbit.EventHandler;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 
-public class WKey extends Module {
+public class AKey extends Module {
     
-   public WKey() {
-      super(AddonTemplate.CATEGORY, "W", "A Standalone Module Purely for use with Starscript");
+   public AKey() {
+      super(ModulesPlus.CATEGORY, "AKey", "A Standalone Module Purely for use with Starscript");
    }
 
 }

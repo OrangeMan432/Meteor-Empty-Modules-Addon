@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "modules-plus",
   "version": "${version}",
-  "name": "WASD Modules",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Modules Plus",
+  "description": "An addon that adds empty modules to be used with Starscript",
   "authors": [
     "IvanProCookie",
     "OrangeMan432"
@@ -15,11 +15,11 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.ivanprocookie.addon.ModulesPlus"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "modules-plus.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

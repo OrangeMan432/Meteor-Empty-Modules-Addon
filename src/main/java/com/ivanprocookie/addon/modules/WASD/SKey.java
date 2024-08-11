@@ -1,6 +1,6 @@
 package com.ivanprocookie.addon.modules.wasd;
 
-import com.ivanprocookie.addon.ModulesPlus;
+import com.ivanprocookie.addon.StarscriptModules;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
 import meteordevelopment.meteorclient.settings.ColorSetting;

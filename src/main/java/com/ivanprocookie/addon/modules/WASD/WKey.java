@@ -15,7 +15,7 @@ import net.minecraft.util.math.Box;
 public class WKey extends Module {
     
    public WKey() {
-      super(ModulesPlus.CATEGORY, "WKey", "A Standalone Module Purely for use with Starscript");
+      super(StarscriptModules.CATEGORY, "WKey", "A Standalone Module Purely for use with Starscript");
    }
 
 }

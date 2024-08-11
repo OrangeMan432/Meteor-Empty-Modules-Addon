@@ -15,7 +15,7 @@ import net.minecraft.util.math.Box;
 public class OtherKey5 extends Module {
 
    public OtherKey5() {
-      super(ModulesPlus.CATEGORY, "OtherKey5", "A Standalone Module Purely for use with Starscript");
+      super(StarscriptModules.CATEGORY, "OtherKey5", "A Standalone Module Purely for use with Starscript");
    }
 
 }

@@ -15,7 +15,7 @@ import net.minecraft.util.math.Box;
 public class SKey extends Module {
     
    public SKey() {
-      super(ModulesPlus.CATEGORY, "SKey", "A Standalone Module Purely for use with Starscript");
+      super(StarscriptModules.CATEGORY, "SKey", "A Standalone Module Purely for use with Starscript");
    }
 
 }

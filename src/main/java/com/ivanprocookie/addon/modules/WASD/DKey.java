@@ -15,7 +15,7 @@ import net.minecraft.util.math.Box;
 public class DKey extends Module {
     
    public DKey() {
-      super(ModulesPlus.CATEGORY, "DKey", "A Standalone Module Purely for use with Starscript");
+      super(StarscriptModules.CATEGORY, "DKey", "A Standalone Module Purely for use with Starscript");
    }
 
 }

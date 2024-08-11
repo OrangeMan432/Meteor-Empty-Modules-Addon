@@ -26,6 +26,6 @@ public abstract class ExampleMixin {
      */
     @Inject(method = "<init>", at = @At("TAIL"))
     private void onGameLoaded(RunArgs args, CallbackInfo ci) {
-        ModulesPlus.LOG.info("Hello from ExampleMixin!");
+        StarscriptModules.LOG.info("Hello from ExampleMixin!");
     }
 }

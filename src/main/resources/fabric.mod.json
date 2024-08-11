@@ -15,7 +15,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.ivanprocookie.addon.ModulesPlus"
+      "com.ivanprocookie.addon.StarscriptModules"
     ]
   },
   "mixins": [

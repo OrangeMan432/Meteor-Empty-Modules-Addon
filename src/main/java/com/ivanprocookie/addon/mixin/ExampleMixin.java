@@ -1,6 +1,6 @@
 package com.ivanprocookie.addon.mixin;
 
-import com.ivanprocookie.addon.ModulesPlus;
+import com.ivanprocookie.addon.StarscriptModules;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
 import org.spongepowered.asm.mixin.Mixin;

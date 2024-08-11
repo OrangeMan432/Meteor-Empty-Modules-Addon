@@ -22,14 +22,14 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class ModulesPlus extends MeteorAddon {
+public class StarscriptModules extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
     public static final Category CATEGORY = new Category("Keys");
     public static final HudGroup HUD_GROUP = new HudGroup("IPC");
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Addon Template");
+        LOG.info("Initializing Starscript Modules addon");
 
         // Modules
         Modules.get().add(new WKey());

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modules-plus",
+  "id": "starscript-modules",
   "version": "${version}",
   "name": "Starscript Modules",
   "description": "An addon that adds empty modules to be used with Starscript",
@@ -19,7 +19,7 @@
     ]
   },
   "mixins": [
-    "modules-plus.mixins.json"
+    "starscript-modules.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

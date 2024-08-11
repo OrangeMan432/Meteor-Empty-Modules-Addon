@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "modules-plus",
   "version": "${version}",
-  "name": "Modules Plus",
+  "name": "Starscript Modules",
   "description": "An addon that adds empty modules to be used with Starscript",
   "authors": [
     "IvanProCookie",
